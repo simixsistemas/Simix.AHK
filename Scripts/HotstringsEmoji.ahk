@@ -7,7 +7,9 @@
 ; https://gitmoji.carloscuesta.me/
 ; http://www.unicode.org/emoji/charts/full-emoji-list.html
 
-:*:-)::{U+1F603}      ; 😃
+:*::)::{U+1F603}      ; 😃
+:*:-0::{U+1F603}      ; 😃
+:*::D::{U+1F604}      ; 😄
 :*:-D::{U+1F604}      ; 😄
 
 :*:-pin::{U+1F4CC}    ; 📌
