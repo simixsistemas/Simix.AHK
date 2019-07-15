@@ -2,6 +2,9 @@
 ; Main script (called in shell:startup)
 ; ================================================================================
 
+;Perform installation
+Run Scripts\Install.ahk
+
 ; Tray
 Menu, Tray, Icon , %A_ScriptDir%\Icon.ico
 Menu, Tray, Tip , SMX AHK
