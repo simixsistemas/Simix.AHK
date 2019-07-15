@@ -16,5 +16,5 @@ Pause::
 return
 #If
 
-^PrintScreen::Run, "C:\Program Files (x86)\ScreenToGif\ScreenToGif.exe"
-PrintScreen::Send, #+s
+^PrintScreen::RunExe("C:\ProgramData\chocolatey\lib\screentogif\content\ScreenToGif.exe", "C:\Program Files (x86)\ScreenToGif\ScreenToGif.exe")
+!PrintScreen::Send, #+s

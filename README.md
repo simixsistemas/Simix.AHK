@@ -38,6 +38,7 @@ Baseado em padrões trazidos pelo [@simix-felipebaltazar](https://github.com/sim
 `@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin" && @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "choco feature enable -n allowGlobalConfirmation;cinst autohotkey.install;cinst screentogif;cinst greenshot"`
 * Baixe o repo e execute o Simix.AHK.ahk
 * Crie um atalho no shell:startup
+* Copie o arquivo [Greenshot.ini](Templates/Greenshot.ini) com as configurações otimizadas para a pasta C:\Users\%USERNAME%\AppData\Roaming\Greenshot\
 
 ## Referências
 

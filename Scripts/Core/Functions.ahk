@@ -115,3 +115,11 @@ RunTS(path, pwd, name) {
     Clipboard = %pwd%
     Send, %pwd%{Enter}
 }
+
+RunExe(path, pathAlt) {
+    if FileExist(path)
+        Run, %path%
+    else
+        Run, %pathAlt%
+
+}
