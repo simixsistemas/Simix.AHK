@@ -34,7 +34,7 @@ Baseado em padrões trazidos pelo [@simix-felipebaltazar](https://github.com/sim
 
 ## Configuração
 
-* Baixe o repo e execute o Simix.AHK.ahk
+* Baixe o repositorio Simix.AHK
 <p align="center">
 	<kbd>
 		<img src="https://user-images.githubusercontent.com/42358163/61240196-0581f480-a717-11e9-84ef-73b39b594361.png" alt="image" style="max-width:100%;"/>
