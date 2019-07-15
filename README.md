@@ -34,11 +34,33 @@ Baseado em padrões trazidos pelo [@simix-felipebaltazar](https://github.com/sim
 
 ## Configuração
 
-* Instale os pré-requisitos (cmd como admin):
-`@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin" && @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "choco feature enable -n allowGlobalConfirmation;cinst autohotkey.install;cinst screentogif;cinst greenshot"`
 * Baixe o repo e execute o Simix.AHK.ahk
-* Crie um atalho no shell:startup
-* Copie o arquivo [Greenshot.ini](Templates/Greenshot.ini) com as configurações otimizadas para a pasta C:\Users\%USERNAME%\AppData\Roaming\Greenshot\
+<p align="center">
+	<kbd>
+		<img src="https://user-images.githubusercontent.com/42358163/61240196-0581f480-a717-11e9-84ef-73b39b594361.png" alt="image" style="max-width:100%;"/>
+	</kbd>
+</p>
+
+* Execute o script Simix.AHK.ahk como administrador
+<p align="center">
+	<kbd>
+		<img src="https://user-images.githubusercontent.com/42358163/61240146-e97e5300-a716-11e9-91f9-dd70c0d0febb.gif" alt="image" style="max-width:100%;"/>
+	</kbd>
+</p>
+
+* Um atalho para o script deve ser criado, automaticamente, na pasta inicializar
+<p align="center">
+	<kbd>
+		<img src="https://user-images.githubusercontent.com/42358163/61240317-4d088080-a717-11e9-9896-99f487662c90.png" alt="image" style="max-width:100%;"/>
+	</kbd>
+</p>
+<p align="center">
+	<kbd>
+		<img src="https://user-images.githubusercontent.com/42358163/61240332-58f44280-a717-11e9-8f6c-91488ad67ded.png" alt="image" style="max-width:100%;"/>
+	</kbd>
+</p>
+
+* Pronto!
 
 ## Referências
 
