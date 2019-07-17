@@ -24,5 +24,10 @@ if (!FileExist("C:\ProgramData\chocolatey\lib\screentogif\content\ScreenToGif.ex
 
 ; Create a script shortcut
 if (!FileExist("%A_Startup%\Simix.AHK.lnk")) {
-	FileCreateShortcut, "%A_ScriptFullPath%", %A_Startup%\Simix.AHK.lnk, %A_ScriptDir%,, Simix desktop automation, %A_ScriptDir%\Icon.ico, i
+	rootDir := LevelUpScriptDir(1)
+		FileCreateShortcut, "%rootDir%\Simix.AHK.ahk", %A_Startup%\Simix.AHK.lnk, %rootDir%,, Simix desktop automation, %rootDir%\Icon.ico, i
+}
+
+LevelUpScriptDir(n){
+	return SubStr(A_ScriptDir,1,!InStr(A_ScriptDir,"\",0,-1,n) ? InStr(A_ScriptDir,"\",0,1,1) : InStr(A_ScriptDir,"\",0,-1,n))
 }
