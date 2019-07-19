@@ -1,0 +1,6 @@
+## PcPonto|SuperMídia {Versão} 🎉
+-   
+Ticket: [#x](https://simix.movidesk.com/Ticket/Edit/x), PR: [#x](https://github.com/simixsistemas/pull/x)
+- 
+- 
+✨ 🐛 ♻

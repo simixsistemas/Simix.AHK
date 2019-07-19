@@ -1,0 +1,16 @@
+regsvr32 /s C:\PcPonto\smxPontoCalc.dll
+regsvr32 /s C:\PcPonto\smxBiometria.ocx /s
+regsvr32 /s C:\PcPonto\smxConversorSQL.dll
+regsvr32 /s C:\PcPonto\smxPcPontoRepl.dll
+regsvr32 /s C:\PcPonto\smxPcPontoRl.dll
+regsvr32 /s C:\PcPonto\smxPontoBackup.dll
+regsvr32 /s C:\PcPonto\smxPontoCalc.dll
+regsvr32 /s C:\PcPonto\smxPontoRegistro.dll
+regsvr32 /s C:\PcPonto\smxPontoTools.ocx
+regsvr32 /s C:\PcPonto\smxSBInterface.ocx
+regsvr32 /s C:\PcPonto\smxSchemaBanco.dll
+regsvr32 /s C:\PcPonto\smxScript.dll
+regsvr32 /s C:\PcPonto\smxScriptInput.ocx
+regsvr32 /s C:\PcPonto\smxTSQL.dll
+regsvr32 /s C:\PcPonto\VFingerCom.dll
+regsvr32 /s C:\PcPonto\VFingerView.dll
