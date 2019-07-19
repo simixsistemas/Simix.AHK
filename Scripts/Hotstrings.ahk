@@ -5,11 +5,11 @@
 
 ; Date
 :*:;dm::
-    FormatTime, CurrentDateTime,, yyyyMMdd
+    FormatTime, CurrentDateTime,, dd/MM/yyyy
     SendInput %CurrentDateTime%
 return
 :*:;ym::
-    FormatTime, CurrentDateTime,, ddMMyyyy
+    FormatTime, CurrentDateTime,, yyyyMMdd
     SendInput %CurrentDateTime%
 return
 

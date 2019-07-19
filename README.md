@@ -9,8 +9,8 @@ Qualquer sugestão de melhoria ou novas funcionalidades abra um PR. Lembrando qu
 
 ### Ferramentas de captura (Para Git, CRM, tutorias, etc)
 <kbd>PrintScreen</kbd> → Print com [Greenshot](https://getgreenshot.org/)  
-<kbd>Alt</kbd><kbd>PrintScreen</kbd> → Print com a Ferramenta de captura do Windows (equivalente a <kbd>Win</kbd><kbd>Shift</kbd><kbd>S</kbd>)
-<kbd>Ctrl</kbd><kbd>PrintScreen</kbd> → Vídeo gif com [ScreenToGif](https://www.screentogif.com/)
+<kbd>Alt</kbd><kbd>PrintScreen</kbd> → Print com a Ferramenta de captura do Windows (equivalente a <kbd>Win</kbd><kbd>Shift</kbd><kbd>S</kbd>)  
+<kbd>Ctrl</kbd><kbd>PrintScreen</kbd> → Vídeo gif com [ScreenToGif](https://www.screentogif.com/)  
 
 ### Geral
 <kbd>Win</kbd><kbd>C</kbd> → Executa o cmd como adminitrador  
