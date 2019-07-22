@@ -123,3 +123,13 @@ RunExe(path, pathAlt) {
         Run, %pathAlt%
 
 }
+
+PasteTemplateFromFile(name, sendLiteral = false) {
+    FileEncoding , UTF-8
+    FileRead, Clipboard, %A_ScriptDir%\Templates\%name%.txt
+
+    if (sendLiteral)
+        Send, %Clipboard% ; Typing simulation (for DOS and TS when paste is block)
+    else
+        Send, ^v
+}

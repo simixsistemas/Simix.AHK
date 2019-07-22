@@ -16,14 +16,14 @@ Menu, Tray, Tip , SMX AHK
 #Include Scripts\Core\VirtualDesktop.ahk
 
 #Include Scripts\Install.ahk
-;Perform installation
+; Perform installation
 CheckInstall()
 
 ; Includes (Scripts)
 #Include Scripts\Hotstrings.ahk
+#Include Scripts\HotstringsSQL.ahk
 #Include Scripts\HotstringsEmoji.ahk
 #Include Scripts\Shortcuts.ahk
-
 
 ; Settings
 #SingleInstance, Force
