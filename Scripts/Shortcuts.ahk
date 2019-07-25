@@ -47,3 +47,15 @@ return
     CopyToClipboard()
     Run, %Clipboard%
 return
+
+^i::
+Send ^x
+var := SubStr(clipboard, InStr(clipboard, "(") + 1, InStr(clipboard, ")") - InStr(clipboard, "(") - 1)
+
+FileEncoding , UTF-8
+FileRead, Clipboard, %A_ScriptDir%\Templates\img.txt
+
+Clipboard := StrReplace(Clipboard, "imageURL", var)
+sleep 100
+Send ^v
+return
