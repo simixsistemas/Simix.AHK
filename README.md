@@ -11,6 +11,7 @@ Qualquer sugestão de melhoria ou novas funcionalidades abra um PR. Lembrando qu
 <kbd>PrintScreen</kbd> → Print com [Greenshot](https://getgreenshot.org/)  
 <kbd>Alt</kbd><kbd>PrintScreen</kbd> → Print com a Ferramenta de captura do Windows (equivalente a <kbd>Win</kbd><kbd>Shift</kbd><kbd>S</kbd>)  
 <kbd>Ctrl</kbd><kbd>PrintScreen</kbd> → Vídeo gif com [ScreenToGif](https://www.screentogif.com/)  
+<kbd>Ctrl</kbd><kbd>I</kbd> → Com link (`Markdown`) de uma imagem selecionado, gera o código `Html` com bordas e centralizado
 
 ### Geral
 <kbd>Win</kbd><kbd>C</kbd> → Executa o cmd como adminitrador  
