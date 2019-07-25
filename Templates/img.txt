@@ -1,0 +1,5 @@
+<p align="center">
+	<kbd>
+		<img src="imageURL" alt="image" style="max-width:100%;"/>
+	</kbd>
+</p>
