@@ -14,6 +14,7 @@ Qualquer sugestão de melhoria ou novas funcionalidades abra um PR. Lembrando qu
 <kbd>Ctrl</kbd><kbd>I</kbd> → Com link (`Markdown`) de uma imagem selecionado, gera o código `Html` com bordas e centralizado
 
 ### Geral
+<kbd>Win</kbd><kbd>F1</kbd> → Abre essa página  
 <kbd>Win</kbd><kbd>C</kbd> → Executa o cmd como adminitrador  
 <kbd>Win</kbd><kbd>S</kbd> → Vai direto para a última mensagem/pesquisa do slack  
 <kbd>Win</kbd><kbd>Espaço</kbd> → Abre/volta o foco para o Notepad++  
@@ -54,6 +55,7 @@ Atalhos para utilizar emojis mais facilmente no Git, CRM, Slack, etc.
 -P → 😜  
 -pin → 📌  
 -ok → 👍  
+-hey → 📣
 
 #### Dev (ver https://gitmoji.carloscuesta.me)
 -ck → ✅  

@@ -48,6 +48,10 @@ return
     Run, %Clipboard%
 return
 
+; Repo site
+#F1::Run, https://github.com/simixsistemas/Simix.AHK#teclas-de-atalhos
+
+; Generate html snippet for image url
 ^i::
 Send ^x
 var := SubStr(clipboard, InStr(clipboard, "(") + 1, InStr(clipboard, ")") - InStr(clipboard, "(") - 1)
