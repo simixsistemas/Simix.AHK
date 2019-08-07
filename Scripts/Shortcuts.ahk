@@ -48,8 +48,14 @@ return
     Run, %Clipboard%
 return
 
+; Paste. Simulated, for: ignore formating, paste file paths and TS with clipboard disabled
+^+v::Send, %Clipboard%
+
 ; Repo site
-#F1::Run, https://github.com/simixsistemas/Simix.AHK#teclas-de-atalhos
+#F1::Run, https://simix.movidesk.com/kb/pt-br/article/60634/todos-links
+
+; KB Links
+#F2::Run, https://github.com/simixsistemas/Simix.AHK#teclas-de-atalhos
 
 ; Generate html snippet for image url
 ^i::
