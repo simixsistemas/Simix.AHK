@@ -24,7 +24,6 @@ CheckInstall()
 #Include Scripts\HotstringsSQL.ahk
 #Include Scripts\HotstringsEmoji.ahk
 #Include Scripts\Shortcuts.ahk
-#Include Scripts\AHK.ahk
 
 ; Settings
 #SingleInstance, Force

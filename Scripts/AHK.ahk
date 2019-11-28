@@ -10,13 +10,13 @@ SaveReload() {
 }
 
 ; Edit AHK VS Code project
-#a::Run, %A_ScriptDir%\Simix.AHK.code-workspace
+CapsLock & a::Run, %A_ScriptDir%\Simix.AHK.code-workspace
 
 ; Reload
 CapsLock & r::
     ShowOSD("Ok", 500)
     Reload
 return
-#If WinActive("AHK")
+#If WinActive("AutoHotkey")
 F12::SaveReload()
 #If
