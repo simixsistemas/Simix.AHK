@@ -58,14 +58,16 @@ return
 #F2::Run, https://github.com/simixsistemas/Simix.AHK#teclas-de-atalhos
 
 ; Generate html snippet for image url
+#if WinBrowser()
 ^i::
-Send ^x
-var := SubStr(clipboard, InStr(clipboard, "(") + 1, InStr(clipboard, ")") - InStr(clipboard, "(") - 1)
+    Send ^x
+    var := SubStr(clipboard, InStr(clipboard, "(") + 1, InStr(clipboard, ")") - InStr(clipboard, "(") - 1)
 
-FileEncoding , UTF-8
-FileRead, Clipboard, %A_ScriptDir%\Templates\img.txt
+    FileEncoding , UTF-8
+    FileRead, Clipboard, %A_ScriptDir%\Templates\img.txt
 
-Clipboard := StrReplace(Clipboard, "imageURL", var)
-sleep 100
-Send ^v
-return
+    Clipboard := StrReplace(Clipboard, "imageURL", var)
+    sleep 100
+    Send ^v
+    return
+#If
