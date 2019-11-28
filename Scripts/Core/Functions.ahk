@@ -34,6 +34,10 @@ WinDev(){
     return (WinActive("ahk_exe Code.exe") or WinActive("ahk_exe devenv.exe"))
 }
 
+WinBrowser(){
+    return WinActive("ahk_exe chrome.exe")
+}
+
 WinCRM(){
     return WinActive("ahk_exe SimixCRM.Win.exe")
 }
