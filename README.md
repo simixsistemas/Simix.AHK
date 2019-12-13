@@ -57,6 +57,8 @@ Atalhos para utilizar emojis mais facilmente no Git, CRM, Slack, etc.
 :) ou -0 → 😃  
 :D ou -D → 😄  
 -P → 😜  
+-ha → 😂  
+-hum → 🤔  
 -clap → 👏  
 -force → 💪  
 -pin → 📌  
@@ -75,6 +77,7 @@ Atalhos para utilizar emojis mais facilmente no Git, CRM, Slack, etc.
 -x → ♻️  
 -tool → 🔧  
 -doc → 📝  
+-wip → 🚧
 
 ## Configuração
 
