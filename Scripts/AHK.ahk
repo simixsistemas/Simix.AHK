@@ -10,7 +10,7 @@ SaveReload() {
 }
 
 ; Edit AHK VS Code project
-#a::Run, %A_ScriptDir%\Simix.AHK.code-workspace
+#h::Run, %A_ScriptDir%\Simix.AHK.code-workspace
 
 ; Reload
 CapsLock & r::
