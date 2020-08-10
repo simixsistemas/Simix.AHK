@@ -14,14 +14,15 @@ Qualquer sugestão de melhoria ou novas funcionalidades abra um PR. Lembrando qu
 <kbd>Ctrl</kbd><kbd>I</kbd> (No navegador) → Com link (`Markdown`) de uma imagem selecionado, gera o código `Html` com bordas e centralizado
 
 ### Geral
-<kbd>Win</kbd><kbd>A</kbd> → Edita esse projeto no VSCode  
+<kbd>Win</kbd><kbd>H</kbd> → Edita esse projeto no VSCode  
 <kbd>Win</kbd><kbd>F1</kbd> → Abre a base [Todos os links](https://simix.movidesk.com/kb/pt-br/article/60634/todos-links)  
 <kbd>Win</kbd><kbd>F2</kbd> → Abre essa página  
 <kbd>Win</kbd><kbd>C</kbd> → Executa o cmd como adminitrador  
 <kbd>Win</kbd><kbd>S</kbd> → Vai direto para a última mensagem/pesquisa do slack  
 <kbd>Win</kbd><kbd>Espaço</kbd> → Abre/volta o foco para o Notepad++  
 <kbd>Win</kbd><kbd>Enter</kbd> → Executa o texto selecionado  
-<kbd>Win</kbd><kbd>A</kbd> → Abre esse projeto no VS Code  
+<kbd>Win</kbd><kbd>T</kbd> → Copia o id selecionado e abre o TeamViewer e AnyDesk  
+<kbd>Win</kbd><kbd>Esc</kbd> → Limpa as notificações do Windows  
 <kbd>F12</kbd><kbd>A</kbd> → Recarrega o script  
 
 ## Hotstrings
