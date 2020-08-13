@@ -71,3 +71,18 @@ return
     Send ^v
     return
 #If
+
+; TeamViewer/AnyDesk
+#t::
+    CopyToClipboard()
+    Run, "C:\Program Files (x86)\AnyDesk\AnyDesk.exe"
+    Run, "C:\Program Files (x86)\TeamViewer\TeamViewer.exe"
+return
+
+; Clear Windows notifications
+#Esc::
+    Send, #a
+    Sleep, 200
+    Send, {Tab}{Tab}{Tab}{Tab}{Tab}
+    Send, {Space}{Esc}
+return
