@@ -3,14 +3,8 @@
 Ticket: [#x](https://simix.movidesk.com/Ticket/Edit/x)
 
 ## Alterações
+
 - 
-- 
-- 
-✨ 🐛 ♻
 
 ## Demonstração
-<p align="center">
-	<kbd>
-		<img src="" alt="image" style="max-width:100%;"/>
-	</kbd>
-</p>
+

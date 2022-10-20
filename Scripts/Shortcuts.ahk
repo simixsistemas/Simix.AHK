@@ -82,7 +82,8 @@ return
 ; Clear Windows notifications
 #Esc::
     Send, #a
-    Sleep, 200
+    Sleep, 500
     Send, {Tab}{Tab}{Tab}{Tab}{Tab}
+    Sleep, 500
     Send, {Space}{Esc}
 return
