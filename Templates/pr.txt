@@ -1,6 +1,7 @@
 ﻿## Objetivo
 
 Ticket: [#x](https://simix.movidesk.com/Ticket/Edit/x)
+Fix: [#x](x)
 
 ## Alterações
 
